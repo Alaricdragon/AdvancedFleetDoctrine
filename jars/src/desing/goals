@@ -1,0 +1,20 @@
+interfaces:
+    1) a json file that mods can have, adding new 'Advanced Fleet Doctrines' to there own factions
+    2) a in game interface for adding fleet doctrines.
+        -will require a button to output fleet doctrine as a json file
+        -will require a button to output all ship layouts used in the fleet as variant files
+    3) a in game interface for creating ship layouts for use in said doctrine
+        -will require a button to output ship layout as a variant file
+
+features:
+    1) the ability to completely change the ships produced on a fleet by fleet basis. this includes:
+        1) the ability to create new ships and loudouts.
+        2) the ability to set different fleet groups, or different ships, to have different officer quality, ship quality, and ship numbers
+        3) the ability to have different 'fleet groups' spawn in diffrent conditions.
+
+    2) advanced fleet doctrines prebuilt for all the main core world factions
+        -note: for 'unbound' factions (like the remaments, or dialect) its important to keep in mind that they cant use normal conditions. add a 'random' condition to allow for such to spawn.
+
+    3) the option to turn make all ships cost 'credits', as apposed to whatever they cost now. (making more expensive ships take up more 'room' in the budget for there fleets)
+    4) the option to turn on 'fleet size by DP' for hostile fleets
+        -NOTE: for 3 and 4, its very important they remain OFF by default. Otherwise players will be angry. maybe?

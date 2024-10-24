@@ -1,5 +1,5 @@
 {
-    "masterVersionFile":"https://raw.githubusercontent.com/Alaricdragon/AIRetrofits/master/AIRetrofits.version",
+    "masterVersionFile":"https://raw.githubusercontent.com/Alaricdragon/AdvancedFleetDoctrine/main/AdvancedFleetDoctrine.version",
     "modName":"Advanced Fleet Doctrine",
     "modThreadId":22261,
     "modVersion":
@@ -9,6 +9,6 @@
         "patch":"0"
     },
 	"starsectorVersion":"0.97a-RC10",
-	"directDownloadURL":"https://github.com/Alaricdragon/AIRetrofits/archive/refs/heads/master.zip",
-	"changelogURL":"https://raw.githubusercontent.com/Alaricdragon/AIRetrofits/master/jars/src/change_log"
+	"directDownloadURL":"https://github.com/Alaricdragon/AdvancedFleetDoctrine/archive/refs/heads/main.zip",
+	"changelogURL":"https://raw.githubusercontent.com/Alaricdragon/AdvancedFleetDoctrine/main/jars/src/change_log"
 }

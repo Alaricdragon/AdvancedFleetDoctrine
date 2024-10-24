@@ -1,0 +1,8 @@
+Requirements to get this done successfully:
+    1) im going to need a working knowledge on how the game generates fleets
+        -this includes how to (hopefully) completely replace the fleet doctrine functions for everyone, only enabling them as a backup
+            -as a backup, i can use fleet inflaters to completely change what a fleets composition is. completely freely as well.
+    2) im going to require a working knowledge of how to tell what each spawned fleet is 'doing'. (is it a patrol fleet? a invasion fleet? a special task group? what is it dammit.)
+
+    3) im going to need a working knowledge on how to work the top bar 'fleet doctrine' thingy mabob, so i can make it send you to a special page of my own design
+    4) im going to need a working knowledge on how the in game interface works, as well as how to manipulate it to be able to have things like inputted text, bars, buttons, and all sorts of things.

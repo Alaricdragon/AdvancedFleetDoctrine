@@ -1,4 +1,5 @@
 package AdvancedFleetDoctrine.data.scripts;
+import AdvancedFleetDoctrine.data.scripts.startupData.AFD_PlugingStartup;
 import com.fs.starfarer.api.BaseModPlugin;
 import com.thoughtworks.xstream.XStream;
 import org.json.JSONException;
@@ -19,8 +20,7 @@ public class AFD_Startup extends BaseModPlugin {
     }
     @Override
     public void onGameLoad(boolean newGame) {
-        //something wrong with crewreplacer addCrewType. causes out of bounds
-        //crew_replacer_start_outdated();
+        AFD_PlugingStartup.apply();
         super.onGameLoad(newGame);
     }
 }

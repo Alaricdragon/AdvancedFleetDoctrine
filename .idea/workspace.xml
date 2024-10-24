@@ -10,15 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41f17b4e-9820-49eb-a6f8-47da4b398978" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedFleetDoctrine.version" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedFleetDoctrine.version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/AdvancedFleetDoctrine.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/AdvancedFleetDoctrine/data/scripts/AFD_Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/jars/src/AdvancedFleetDoctrine/data/scripts/AFD_Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/change_log" beforeDir="false" afterPath="$PROJECT_DIR$/jars/src/change_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jars/src/desing/toDoListNow" beforeDir="false" afterPath="$PROJECT_DIR$/jars/src/desing/toDoListNow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/AdvancedFleetDoctrine/data/scripts/AFD_Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/AdvancedFleetDoctrine/data/scripts/AFD_Startup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/AdvancedFleetDoctrine/data/scripts/AFD_StringHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/AdvancedFleetDoctrine/scripts/startupData/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/change_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/desing/toDoListNow" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/full_change_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my mod/jars.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\Advanced Fleet Doctrine" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\AI-Retrofits\jars\src\desing\playerFleet" />
       <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\AI-Retrofits\jars\src\desing\market" />
