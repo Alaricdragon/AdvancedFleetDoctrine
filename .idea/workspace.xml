@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AdvancedFleetDoctrine:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41f17b4e-9820-49eb-a6f8-47da4b398978" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AIRetrofit_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ExerelinCore.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/LazyLib_Kotlin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/crew_replacer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/marketRetrofit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIRetrofits.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/abilities.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/commodities.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/industries.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/market_conditions.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/old/abilities.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/old/industries.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/old/rules.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/rules.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/special_items.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/campaign/submarkets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/characters/skills/automated_ships.skill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/AIRetrofits/strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/exerelin/groundBattleDefs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/config/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config/version/version_files.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/config/version/version_files.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hullmods/old hull_mods.csv/hull_mods.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strings/descriptions.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_AIRetrofit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_Fighter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_PatchworkAIRetrofit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_ShipyardDisplay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_ShipyardDisplay_Alpha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_ShipyardDisplay_Beta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_ShipyardDisplay_Gamma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_ShipyardDisplay_Omega.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/hullmods/AIRetrofit_robot forge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_AIComandNode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_AICommandNodeItem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Advanced_Combat Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Advanced_salvage drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Advanced_servey robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Combat Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Command Relay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Maintince Parts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Omega_Combat Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Omega_salvage drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_Omega_servey robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_humon interface.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_robot parts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_salvage drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/cargo/AIRetrofit_servey robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/grounBattles/AIRetrofit_Advanced_Combat Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/grounBattles/AIRetrofit_Advanced_salvage drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/grounBattles/AIRetrofit_Combat Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/grounBattles/AIRetrofit_Omega_Combat Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/grounBattles/AIRetrofit_Omega_salvage drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/grounBattles/AIRetrofit_salvage drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit syntheticProductionCenter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_AI node production facility.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_AIRetrofitPurgeOption.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_advancedCombatRobotManufactory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_advancedSalvageRobotManufactory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_advancedSurveyRobotManufactory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_combatRobotManufactory.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_populationHigh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_populationLow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_populationVeryHigh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_robotic maintenance facility.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_roboticPopFactoryV0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_roboticPopFactoryV1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_roboticPopFactoryV2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_salvageRobotManufactory.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_shipYard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/industry/AIRetrofit_surveyRobotManufactory.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/markets/AIRetrofit_AIPopulation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/markets/AIRetrofits_AILudicWar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/markets/AIRetrofits_BrokenAIWorkers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/markets/AIRetrofits_LudicPathWatchers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/markets/AIRetrofits_PurgingAIWorld.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/markets/AIRetrofits_UnbrokenAIWorkers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/icons/skills/AIRetrofit_robot forge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/Combat Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/Command Relay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/ai_ComandNode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/hal9000butblue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/robot forge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/robot parts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/salvage drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/salvagr robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/old/someone_elses_robot 00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/portrait_ai2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/portraits/AIRetrofits_AICaption1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/portraits/AIRetrofits_AICaption1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/robot forge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/submarkets/AIRetrofit_ShipyardSubmarket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/submarkets/AIRetrofits_AINodeProduction_Submarket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/.idea/libraries/AIretrofit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/AIretrofit.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/change_log" beforeDir="false" afterPath="$PROJECT_DIR$/jars/src/change_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIRetrofit_Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIRetrofit_Robots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIRetrofits_AbilityAndHullmodAdding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIRetrofits_StringHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/AIRetrofit_AIRelations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/AIRetrofit_TransferMarket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/AIRetrofits_ChangePeople.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Fleet/BaseCampainPlugin/AIRetrofit_FleetPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Fleet/fleetnflater/AIRetrofit_fleetInflater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Fleet/listiner/AIRetrofit_FleetListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Fleet/setDataLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/FoundAMarket/AIRetrofit_MarketRetrofit_CustomMarketFounder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Robot_Percentage_Calculater/AIRetrofits_Robot_Types_calculater_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Robot_Percentage_Calculater/AIRetrofits_Robot_Types_checker_Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Robot_Percentage_Calculater/AIRetrofits_Robot_Types_checker_Demand_0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Robot_Percentage_Calculater/AIRetrofits_Robot_Types_checker_Demand_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Robot_Percentage_Calculater/AIRetrofits_Robot_Types_checker_Supply_0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Robot_Percentage_Calculater/AIRetrofits_Robot_Types_checker_Supply_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/Robot_Percentage_Calculater/AIRetrofits_Robot_Types_checker_Supply_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/SupportCode/AIretrofit_canBuild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/growth/AIRetorift_GetMarketBoost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/growth/AIRetrofit_MarketGrowthMods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/growth/AIRetrofits_RemoveUnwantedGrowth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/AIRetrofit_Population.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/base/AIRetrofit_IndustryBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/basicCommodites/AIRetrofit_AINodeProductionFacility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/basicCommodites/AIRetrofit_roboticMaintenanceFacility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/basicCommodites/AIRetrofit_syntheticProductionCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/personalRobotForge/AIRetrofit_PersonalRobotManufactoryBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/personalRobotForge/AIRetrofit_combatRobotManufactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/personalRobotForge/AIRetrofit_combatRobotManufactoryT2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/personalRobotForge/AIRetrofit_salvageRobotManufactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/personalRobotForge/AIRetrofit_salvageRobotManufactoryT2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/personalRobotForge/AIRetrofit_surveyRobotManufactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/personalRobotForge/AIRetrofit_surveyRobotManufactoryT2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/robotPopulationFactorys/AIRetrofit_roboticPopFactoryV0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/robotPopulationFactorys/AIRetrofit_roboticPopFactoryV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/robotPopulationFactorys/AIRetrofit_roboticPopFactoryV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/specal/AIRetrofit_AIRetrofitPurgeOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/specal/AIRetrofit_robotCarrierService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/specal/AIRetrofit_shipYard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/industries/specal/AIRetrofits_tempthing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_conditions/AIRetrofitsAIPop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_conditions/AIRetrofits_AILudicWar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_conditions/AIRetrofits_BrokenAIWorkers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_conditions/AIRetrofits_LudicPathWatchers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_conditions/AIRetrofits_PurgingAIWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_conditions/AIRetrofits_UnbrokenAIWorkers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_listiners/AIRetrofit_MakretListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/market_listiners/AIRetrofit_econUpdateListiner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/submarkets/AIRetrofit_AINodeProduction_Submarket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/submarkets/AIRetrofit_Shipyard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/supplyDemandClasses/AIRetrofit_CCSetMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AIWorldCode/supplyDemandClasses/AIRetrofit_CCSetSecondary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/AI_RetrofitsStartup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/SpecalItems/AIRetrofit_CommandNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/SpecalItems/AIRetrofit_CommandNode_SpecalItemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/AIRetrofits_InitCombatabilityPatches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/AIRetrofits_PatchBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/AIRetrofits_GroundBattleListiner2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/AIRetrofits_Patches_Nexerlin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/AIRetrofit_PlayerGroundUnitSwaper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/AIRetrofit_groundTroopSwaper_Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/AIRetrofits_Robot_Types_calculater_GroundUnits_Attacker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/AIRetrofits_Robot_Types_calculater_GroundUnits_Defender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/AIRetrofits_Robot_Types_calculater_GroundUnits_Rebel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/groundBattleMemory/AIRetrofits_GB_WroldFactionMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/groundBattleMemory/AIRetrofits_GroundBattleTroopOddsMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/combatabilityPatches/Nexerlin/groundTroopSwaper/interfaces/AIRetrofits_GroundCombatTypeReplacement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/AIRetrofit_AIretrofit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/AIRetrofit_AutomatedCrewReplacementDrones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/AIRetrofit_PatchworkAIRetrofit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/AIretofit_empty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/ATretroopcost/AIRetrofit_oppAddAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/ATretroopcost/AIRetrofit_oppRemoveAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/Shipyard/AIRetrofit_ShipyardAlpha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/Shipyard/AIRetrofit_ShipyardBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/Shipyard/AIRetrofit_ShipyardBeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/Shipyard/AIRetrofit_ShipyardGamma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/Shipyard/AIRetrofit_ShipyardOmega.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/robotDroneStroge/AIRetrofit_RobotDroneStorage_Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/robotDroneStroge/AIRetrofit_RobotDroneStorage_Cargo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/hullmods/robotDroneStroge/AIRetrofit_RobotDroneStorage_Crew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/jsonDataReader/AIRetrofits_JsonReaderBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/jsonDataReader/AIRetrofits_StringGetterProtection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/listeners/AIRetrofits_CargoInteractionListiner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/memory/AIRetrofit_ItemFoundMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/memory/AIRetrofits_ItemInCargoMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/AIRetrofit_ShipyardNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/ShipyardUpgradeData/AIRetrofit_Shipyard_UpgradeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/ShipyardUpgradeData/AIRetrofit_Shipyard_UpgradeShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/ShipyardUpgradeData/AIRetrofit_Shipyard_UpgradeShips.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/ShipyardUpgradeData/AIRetrofits_Shipyard_UpgradeTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/support/shipyard/AIRetrofit_ShipYard_UpgradeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/support/shipyard/AIRetrofit_UpgradeTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/support/shipyard/AIRetrofit_UpgradedShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/notifications/support/shipyard/AIRetrofit_UpgradedShips.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/AIRetrofits_ForgeItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/AIRetrofits_ForgeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/AIRetrofits_RobotForge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/AIRetrofits_RobotForgeDiologPlugin2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/AIRetrofits_RobotForgeSecondary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/AIRetrofits_RobotForge_People.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/createItemSupport/AIRetrofits_CreatePeople.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/createItemSupport/CommandNodeTypes/AIRetorfit_CommandNodeTypesBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/createItemSupport/CommandNodeTypes/AIRetrofit_CommandNodeType_Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/createItemSupport/CommandNodeTypes/AIRetrofit_CommandNodeType_NexerlinOperative.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/createItemSupport/CommandNodeTypes/AIRetrofit_CommandNodeType_Officer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/dilogs/AIRetrofit_Dialog_ForgeItemAndSelection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/dilogs/AIRetrofits_DialogBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/robot_forge/dilogs/AIRetrofits_Dialog_PeopleMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/startupData/AIRetrofit_RobotDescriptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/startupData/AIRetrofits_Constants_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/startupData/AIRetrofits_Startup_CreatePeople.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/startupData/AIRetrofits_Startup_CrewReplacer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/startupData/AIRetrofits_Startup_MarketRetrofits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/startupData/AIRetrofits_Startup_RobotForge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/data/scripts/startupData/AIRetrofits_Startup_RobotTypesCalculater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/constants" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/crossModSupport/Nexerlin/ground battles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/Commodity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/addOrRemove AI-Pop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/desing doc_OLD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/events" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/fleets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/founding market" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/industries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/market conditions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/market growth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/stability" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/market/to do list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/playerFleet/desing doc_abilitys-othercrew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/playerFleet/desing doc_playerfleet-hullmod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/playerFleet/robots" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/desing/toDoListNow" beforeDir="false" afterPath="$PROJECT_DIR$/jars/src/desing/toDoListNow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/src/full_change_log" beforeDir="false" afterPath="$PROJECT_DIR$/jars/src/full_change_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/mod_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my mod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my mod.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1tbN2l6oK6Uwl9nCYMKiEkWjsYY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\AI-Retrofits\jars\src\desing\playerFleet" />
+      <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\AI-Retrofits\jars\src\desing\market" />
+      <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\AI-Retrofits\jars\src\desing" />
+      <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\AI-Retrofits\jars\src" />
+      <recent name="C:\Users\alari\OneDrive\Desktop\starsector modding resorces\starsector\mods\AI-Retrofits\jars\src\.idea" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Starsector" type="BatchConfigurationType" factoryName="Batch">
+      <module name="my mod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../.." />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../starsector.exe" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41f17b4e-9820-49eb-a6f8-47da4b398978" name="Default Changelist" comment="" />
+      <created>1623033624074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623033624074</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../starfarer.api/com/fs/starfarer/api/impl/campaign/RepairGantry.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jars/src/AdvancedFleetDoctrine/scripts/startupData/AIRetrofit_RobotDescriptions.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.java</url>
+          <line>391</line>
+          <properties class="com.fs.starfarer.api.impl.campaign.rulecmd.salvage.SalvageEntity" method="getValueRecoveryStat">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.java</url>
+          <line>459</line>
+          <properties class="com.fs.starfarer.api.impl.campaign.rulecmd.salvage.SalvageEntity" method="showCost">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.java</url>
+          <line>562</line>
+          <properties class="com.fs.starfarer.api.impl.campaign.rulecmd.salvage.SalvageEntity" method="showCostDebrisField">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.java</url>
+          <line>623</line>
+          <properties class="com.fs.starfarer.api.impl.campaign.rulecmd.salvage.SalvageEntity" method="computeOverallMultForDebrisField">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.java</url>
+          <line>651</line>
+          <properties class="com.fs.starfarer.api.impl.campaign.rulecmd.salvage.SalvageEntity" method="performSalvage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.java</url>
+          <line>101</line>
+          <properties class="com.fs.starfarer.api.impl.campaign.rulecmd.salvage.SalvageEntity" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

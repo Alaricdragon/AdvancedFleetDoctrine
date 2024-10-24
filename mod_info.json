@@ -1,0 +1,10 @@
+{
+	"id":"AdvancedFleetDoctrine", # internal id
+	"name":"Advanced Fleet Doctrine", # displayed to the player
+	"author":"Alaricdragon",
+	"version":"0.0",
+	"description":"Improves and exspands the ability the fleet compasition in game",
+	"gameVersion":"0.97a-RC10",
+	"jars":["jars/AdvancedFleetDoctrine.jar"],
+	"modPlugin":"AdvancedFleetDoctrine.data.scripts.AFD_Startup",
+}
