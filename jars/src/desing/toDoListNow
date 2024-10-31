@@ -5,3 +5,11 @@ so to do list now:
     1) determin how to replace ships.
     2) build up a system to calculate 'condition' and 'results' in a given ADF
         -like, the framework that will be built off of i mean.
+
+
+questions:
+hey everyone, its me here. im confused again, so please answer my questions if you want to.
+1) when using a 'DefaultFleetInflater' to change what ships are in a fleet, i notice that it only takes effect after i mouse over a fleet. is there a way to change a fleets composition before i mouse over it?
+2) are there any functions that randomly apply S-Mods / D-Mods to a ship?
+3) are there any functions that give a ship random weapons / fighters? (like what happens to player faction ships when you have no weapons prioritized / fighters)? all i can do right now is directly spawn in a variant, and i want to do more.
+thanks again for answering my questions the past few years everyone.

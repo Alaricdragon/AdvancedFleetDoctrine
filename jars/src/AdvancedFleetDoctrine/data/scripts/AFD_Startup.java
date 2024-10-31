@@ -20,7 +20,7 @@ public class AFD_Startup extends BaseModPlugin {
     }
     @Override
     public void onGameLoad(boolean newGame) {
-        AFD_PlugingStartup.apply();
         super.onGameLoad(newGame);
+        AFD_PlugingStartup.apply();
     }
 }
