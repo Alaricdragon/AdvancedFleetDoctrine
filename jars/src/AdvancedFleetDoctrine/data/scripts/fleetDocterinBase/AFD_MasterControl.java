@@ -1,22 +1,28 @@
 package AdvancedFleetDoctrine.data.scripts.fleetDocterinBase;
 
+import AdvancedFleetDoctrine.data.scripts.JsonDataHandler;
+import AdvancedFleetDoctrine.data.scripts.startupData.Constants;
+import com.fs.starfarer.api.Global;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 
 public class AFD_MasterControl {
-    ArrayList<AFD_FactionsDoctingBase> Doctrines = new ArrayList<>();
-    public void startup(){
+    private static HashMap<String,AFD_FactionsDoctingBase> doctrines = new HashMap<>();
+    public static void startup(){
         getJsonFiles();
     }
-    public void addDoctrine(String faction){
-
+    public static void setDoctrine(String faction,AFD_FactionsDoctingBase factionsDocting){
+        doctrines.put(faction,factionsDocting);
     }
-    public AFD_FactionsDoctingBase getDoctrine(String faction){
-        for (AFD_FactionsDoctingBase a : Doctrines){
-            if (a.faction.equals(faction)) return a;
-        }
-        return null;
+    public static AFD_FactionsDoctingBase getDoctrine(String faction){
+        return doctrines.get(faction);
     }
-    public boolean applyDocterin(AFD_FleetData data){
+    public static boolean applyDocterin(AFD_FleetData data){
         AFD_FactionsDoctingBase doctrine = getDoctrine(data.faction);
         if (doctrine == null) return false;
         return doctrine.applyFleetSets(data);
@@ -24,7 +30,11 @@ public class AFD_MasterControl {
 
 
 
-    private void getJsonFiles(){
-
+    private static void getJsonFiles(){
+        try {
+            JsonDataHandler.getJsonFiles();
+        } catch (Exception ignored) {
+        }
+        //from withen this
     }
 }

@@ -14,6 +14,7 @@ public class AFD_BaseCampaignPlugin extends BaseCampaignPlugin {
     }
     @Override
     public PluginPick<FleetInflater> pickFleetInflater(CampaignFleetAPI fleet, Object params) {
+        //keept here for now. but like, just not usefull just yet.
         if (params instanceof DefaultFleetInflaterParams) {
             DefaultFleetInflaterParams p = (DefaultFleetInflaterParams) params;
             return new PluginPick<FleetInflater>(new AFD_DefaultFleetInflater(p), CampaignPlugin.PickPriority.CORE_GENERAL);

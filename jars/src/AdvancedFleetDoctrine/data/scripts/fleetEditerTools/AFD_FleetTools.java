@@ -1,13 +1,28 @@
 package AdvancedFleetDoctrine.data.scripts.fleetEditerTools;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.characters.OfficerDataAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
+import com.fs.starfarer.api.fleet.FleetMemberType;
 
 import java.util.ArrayList;
 
 public class AFD_FleetTools {
+    public static void changeFleetMaster(CampaignFleetAPI fleet){
+        test(fleet);
+    }
+    public static void test(CampaignFleetAPI fleet){
+        float size = AFD_FleetTools.getFleetPower(fleet);
+        ArrayList<OfficerDataAPI> officers = AFD_FleetTools.getOfficers(fleet);
+        AFD_FleetTools.clearFleetsShips(fleet);
+        for (int a = 0; a < size; a++) {
+            fleet.getFleetData().addFleetMember(Global.getFactory().createFleetMember(FleetMemberType.SHIP,"hyperion_Attack"));
+        }
+        AFD_FleetTools.applyOfficers(fleet,officers);
+
+    }
     public static float getFleetPower(CampaignFleetAPI fleet){
         return fleet.getFleetData().getMembersListCopy().size();
     }

@@ -16,12 +16,6 @@ public class AFD_DefaultFleetInflater extends DefaultFleetInflater {
     }
     @Override
     public void inflate(CampaignFleetAPI fleet) {
-        float size = AFD_FleetTools.getFleetPower(fleet);
-        ArrayList<OfficerDataAPI> officers = AFD_FleetTools.getOfficers(fleet);
-        AFD_FleetTools.clearFleetsShips(fleet);
-        for (int a = 0; a < size; a++) {
-            fleet.getFleetData().addFleetMember(Global.getFactory().createFleetMember(FleetMemberType.SHIP,"hyperion_Attack"));
-        }
-        AFD_FleetTools.applyOfficers(fleet,officers);
+        //keept here for now. just for refrence. no use for now.
     }
 }

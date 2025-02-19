@@ -2,9 +2,103 @@ so first of all, im going to need to go down my list of requirements and learn t
 like how on earth the fleet doctrine works.
 
 so to do list now:
-    1) determin how to replace ships.
-    2) build up a system to calculate 'condition' and 'results' in a given ADF
+    1) build up a system to calculate 'condition' and 'results' in a given ADF
         -like, the framework that will be built off of i mean.
+    2) so what exsactly do I require to do...?
+        -I want some type of master list for possible modifications to give a faction, that then:
+            1) determins if its OK to change this fleet.
+                -what fleets are ok to change:
+                    all patrol fleets.
+                    all trade fleets.
+                    all private raiders.
+                    all rearmament ordors.
+                    all invasion fleets
+                    all defense fleets.
+                    all raid fleets.
+                    all colony crises fleets.
+                    all salvage fleets.
+                    all mining fleets
+                    all survey fleets.
+                -what fleets are not ok to change
+                    -quest fleets (from special bounty's for example)
+                    -star lord fleets.
+                    -specal task groups.
+                    -detachments (industrial evolution)
+            2) determins if any of the fleet docterins I have available fit this fleet.
+            3) is 1 and 2 are true, change this fleet based on that fleet docterin.
+
+            4) I also need to make sure it creates a fleet of a simler type to what was changed.
+                -for example: a trade fleet would not be full of Hyperion's?????? (why would it be for gods sakes???)
+            5) I need to make it so both conditions, and changes can read jsonObjects (for options).
+        -I want a json file that can be used for the combined advanced fleet doctering
+            -how do I even structure this?
+            -well I think:
+            {
+                "factionID":{
+                    "FleetDoctrinID":{ #this is just something you need named uneak to yourself. that's all. I sware..
+                        "prioirty": double, #the priority that this is used in (higher values are picked before checking other doctrins for this faction)
+                        "supplyPriority": double, #the order this is used in the cost system (so if you are low on ship hulls, higher values will be more likely to be oneline)
+                        "costOverride": int, #if null, just calculate the cost myself.
+                        "conditions": {
+                            "conditionID_A": data,
+                            "conditionID_B": data
+                            #and so on...
+                        }
+                        "doctrine override":{#optional. if here, can change a fleet doctrin
+                            "quality_change": double?,#(optional) increases the quality by the inputed amount
+                            "quality_forced": double?, #(optional) forces the quality to be forced to this value
+                            "size": int, #(optional) changes the ship size doctrin for this fleet.
+
+                            "warshios": int, #(optional) changes the warship ratio to be this amount
+                            "phaseShips": int, #(optional) changes the phaseship ratio to be this amount
+                            "carriers": int, #(optional) changes the carriers ratio to be this amount
+
+                            "officer quality": int, #(optional) changes the officer quality to this amount
+                            "ship quality": int, #(optional) changes the ship quality to this amount
+                            "ship amount": int, #(optional) changes the ship amount to this amount
+                        },
+                        "forced ships":{#optional. forces only the ships here to appear
+
+                        },
+                        "shipRoleOverride"{#optional, forces ships to be forcefully overriden in this role
+
+                        },
+                        "shipRoleRatioOverride":{#optional, forces ships to spawn at a ratio. ships are still selected from ship role types.
+                            #note: this having a max and a min is stupid. just give it one value.
+                            "shipRoleID_A":{
+                                "max": double,
+                                "min": double
+                            },
+                            "shipRoleID_B":{
+                                "max": double,
+                                "min": double
+                            }
+                            #so on so forth
+                        },
+                        "shipRatioOverride"{#optional, forces ships to spawn at a ratio. but like, only spific ships. #note: if both this a ruleRaitoOverride are true, they combine. not overrite.
+                            #note: this having a max and a min is stupid. just give it one value.
+                            "shipRoleID_A":{
+                                "max": double,
+                                "min": double
+                            },
+                            "shipRoleID_B":{
+                                "max": double,
+                                "min": double
+                            },
+                            #so on so forth
+                        },
+                        "shipSizeRatioOverride":{#optional, forces ships to spawn at a ratio, based on sizes...?
+                            "friget": double,#optional. if you want it
+                            "destroyer": double,#optional. if you want it
+                            "crusier": double,#optional. if you want it
+                            "capital": double#optional. if you want it
+                        },
+                        "restrictShipRolesSizes"{#optional. restricts the size a ship can be to do a role.
+
+                        }
+                    }
+                }
+            }
 
 
 questions:
