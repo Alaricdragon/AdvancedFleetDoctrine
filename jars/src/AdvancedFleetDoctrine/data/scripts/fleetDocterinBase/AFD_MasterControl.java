@@ -1,18 +1,14 @@
 package AdvancedFleetDoctrine.data.scripts.fleetDocterinBase;
 
 import AdvancedFleetDoctrine.data.scripts.JsonDataHandler;
-import AdvancedFleetDoctrine.data.scripts.startupData.Constants;
-import com.fs.starfarer.api.Global;
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 
 public class AFD_MasterControl {
     private static HashMap<String,AFD_FactionsDoctingBase> doctrines = new HashMap<>();
+    private static HashMap<String, AFD_FD_ConditionBase> conditionMasterList = new HashMap<>();
+    private static HashMap<String, AFD_FD_RuleBase> ruleMasterList = new HashMap<>();
     public static void startup(){
         getJsonFiles();
     }
@@ -36,5 +32,11 @@ public class AFD_MasterControl {
         } catch (Exception ignored) {
         }
         //from withen this
+    }
+    public static AFD_FD_ConditionBase getNewCondtion(String name, JSONObject json){
+        return conditionMasterList.get(name).create(json);
+    }
+    public static AFD_FD_RuleBase getNewRule(String name, JSONObject json){
+        return ruleMasterList.get(name).create(json);
     }
 }

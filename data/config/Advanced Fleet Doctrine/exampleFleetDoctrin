@@ -1,0 +1,79 @@
+{
+    "factionID":{
+        "FleetDoctrinID":{ #this is just something you need named uneak to yourself. that's all. I sware..
+            "priority": 5, #the priority that this is used in (higher values are picked before checking other doctrins for this faction)
+            "supplyPriority": 2.5, #the order this is used in the cost system (so if you are low on ship hulls, higher values will be more likely to be oneline)
+            "costOverride": 25, #if null, just calculate the cost myself.
+            "conditions": {
+                "conditionID_group_A":{
+                    "condtionID_a":{
+                        "data":5
+                    },
+                    "condtionID_b":{
+                        "data":5
+                    },
+                },
+                "conditionID_group_B":{
+                    "condtionID_a":{
+                        "data":5
+                    },
+                    "condtionID_b":{
+                        "data":5
+                    },
+                }
+                #and so on...
+            },
+            "rules":{
+                "doctrine override":{#optional. if here, can change a fleet doctrin
+                    "quality_change": 0,#(optional) increases the quality by the inputed amount
+                    "quality_forced": 0, #(optional) forces the quality to be forced to this value
+                    "size": 0, #(optional) changes the ship size doctrin for this fleet.
+
+                    "warships": 0, #(optional) changes the warship ratio to be this amount
+                    "phaseShips": 0, #(optional) changes the phaseship ratio to be this amount
+                    "carriers": 0, #(optional) changes the carriers ratio to be this amount
+
+                    "officer quality": 0, #(optional) changes the officer quality to this amount
+                    "ship quality": 0, #(optional) changes the ship quality to this amount
+                    "ship amount": 0, #(optional) changes the ship amount to this amount
+                },
+                "forced ships":{#optional. forces only the ships here to appear
+                    "radiant": 5
+                },
+                "forced weapons":{#optional. forces only the ships and weapons here to appear on ships
+                    "weponID": 5
+                },
+                "shipRoleOverride"{#optional. forces ships to be forcefully overriden in this role
+
+                },
+                "shipRoleRatioOverride":{#optional forces ships to spawn at a ratio. ships are still selected from ship role types.
+                    #note: this having a max and a min is stupid. just give it one value.
+                    "shipRoleID_A": double,
+                    "shipRoleID_B": double
+                    #so on so forth
+                },
+                "shipRatioOverride"{#optional. forces ships to spawn at a ratio. but like, only spific ships. #note: if both this a ruleRaitoOverride are true, they combine. not overrite.
+                    #note: this having a max and a min is stupid. just give it one value.
+                    "shipRoleID_A": double,
+                    "shipRoleID_B": double
+                    #so on so forth
+                },
+                "shipSizeTypeRatioOverride":{#optional. forces ships to spawn at a ratio, based on sizes...?
+                    "friget": double,#optional. if you want it
+                    "destroyer": double,#optional. if you want it
+                    "crusier": double,#optional. if you want it
+                    "capital": double,#optional. if you want it
+                    "warship": double,
+                    "carrier": double,
+                    "phase": double
+                },
+                "restrictShipRolesSizes":{#optional. restricts the size a ship can be to do a role.
+                }
+                "minShips":{#forces at least this number of ships to spawn. takes place before desided on ship ratios.
+                   "shipVarinesID": int,
+                   "shipVarinetID2": int,#...and so on
+                }
+            }
+        }
+    }
+}

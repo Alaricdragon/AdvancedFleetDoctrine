@@ -32,6 +32,15 @@ so to do list now:
             5) I need to make it so both conditions, and changes can read jsonObjects (for options).
         -I want a json file that can be used for the combined advanced fleet doctering
             -how do I even structure this?
+            -ok, some changes to this:
+                1) make each condition be its own array, so conditions can have a bunch of different data's.
+                2) make it so 'conditions' and 'effects?' each have there own {}.
+                3) give each 'condition' a 'type? order? number that determins what 'condition set' they are a part of.
+                    -all conditions from any single 'condition set' must be true, for the doctrin to actavate
+                4) additonal doctrin types:
+                    -merge all the 'ratio' things into one?
+                    -let each FleetDoctrin beable to effect only certin types of ships (with the option of forcing restrictions?)(like only combat ships, but leave the civ ships alone)
+                    -let each fleetdoctrin beable to effect only target fleet types (or all fleet types if untargetd)
             -well I think:
             {
                 "factionID":{
@@ -49,7 +58,7 @@ so to do list now:
                             "quality_forced": double?, #(optional) forces the quality to be forced to this value
                             "size": int, #(optional) changes the ship size doctrin for this fleet.
 
-                            "warshios": int, #(optional) changes the warship ratio to be this amount
+                            "warships": int, #(optional) changes the warship ratio to be this amount
                             "phaseShips": int, #(optional) changes the phaseship ratio to be this amount
                             "carriers": int, #(optional) changes the carriers ratio to be this amount
 
@@ -60,41 +69,39 @@ so to do list now:
                         "forced ships":{#optional. forces only the ships here to appear
 
                         },
+                        "forced weapons":{#optional. forces only the ships and weapons here to appear on ships.
+
+                        },
                         "shipRoleOverride"{#optional, forces ships to be forcefully overriden in this role
 
                         },
                         "shipRoleRatioOverride":{#optional, forces ships to spawn at a ratio. ships are still selected from ship role types.
                             #note: this having a max and a min is stupid. just give it one value.
-                            "shipRoleID_A":{
-                                "max": double,
-                                "min": double
-                            },
-                            "shipRoleID_B":{
-                                "max": double,
-                                "min": double
-                            }
+                            "shipRoleID_A": double,
+                            "shipRoleID_B": double
                             #so on so forth
                         },
                         "shipRatioOverride"{#optional, forces ships to spawn at a ratio. but like, only spific ships. #note: if both this a ruleRaitoOverride are true, they combine. not overrite.
                             #note: this having a max and a min is stupid. just give it one value.
-                            "shipRoleID_A":{
-                                "max": double,
-                                "min": double
-                            },
-                            "shipRoleID_B":{
-                                "max": double,
-                                "min": double
-                            },
+                            "shipRoleID_A": double,
+                            "shipRoleID_B": double
                             #so on so forth
                         },
-                        "shipSizeRatioOverride":{#optional, forces ships to spawn at a ratio, based on sizes...?
+                        "shipSizeTypeRatioOverride":{#optional, forces ships to spawn at a ratio, based on sizes...?
                             "friget": double,#optional. if you want it
                             "destroyer": double,#optional. if you want it
                             "crusier": double,#optional. if you want it
-                            "capital": double#optional. if you want it
+                            "capital": double,#optional. if you want it
+                            "warship": double,
+                            "carrier": double,
+                            "phase": double,
                         },
-                        "restrictShipRolesSizes"{#optional. restricts the size a ship can be to do a role.
-
+                        "restrictShipRolesSizes":{#optional. restricts the size a ship can be to do a role.
+                            #????
+                        }
+                        "minShips":{#forces at least this number of ships to spawn. takes place before desided on ship ratios.
+                           "shipVarinesID": int,
+                           "shipVarinetID2": int,#...and so on
                         }
                     }
                 }

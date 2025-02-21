@@ -1,4 +1,7 @@
 V0.0.3:
+    worked on (and possably compleated) the json data reader.
+        -note: its quite frusterating, and will need exstensive testing in time.
+V0.0.3:
     finally found a way to change ships as they spawn (hopefully).
         -still need to get this to happen before anything else looks at the ships.
     started to work on the json stucture and requirements.
